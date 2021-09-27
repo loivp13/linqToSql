@@ -32,11 +32,13 @@ namespace LinqToSQL
 
             /*InsertUniversities();*/
 
-            /*InsertStudent();*/
+            InsertStudent();
             /*InserLectures();*/
             /*InsertStudentLectureAssociations();*/
             /*GetUnivsersityOFCarla();*/
-            GetLecturesFromCarla();
+            /*GetLecturesFromCarla();*/
+            UpdateToni();
+            DeleteAnotonio();
         }
 
         public void InsertUniversities()
@@ -132,5 +134,38 @@ namespace LinqToSQL
 
             MainDataGrid.ItemsSource = carlaLectures;
         }
+
+        public void GetAllLecturesFromBeijinTec()
+        {
+            var allLecturesFromBeijinTech = from sl in dataContext.StudentLectures
+                                            join student in dataContext.Students
+                                            on sl.StudentId equals student.Id
+                                            where student.University.Name == "Beijing Tech"
+                                            select sl.Lecture;
+
+        }
+
+        public void UpdateToni()
+        {
+            Student Anotonio = dataContext.Students.FirstOrDefault(st => st.Name == "Toni");
+
+            Anotonio.Name = "Anotonio";
+
+            dataContext.SubmitChanges();
+
+            MainDataGrid.ItemsSource = dataContext.Students;
+        }
+
+        public void DeleteAnotonio()
+        {
+            Student student = dataContext.Students.FirstOrDefault(st => st.Name == "Anotonio");
+
+            dataContext.Students.DeleteOnSubmit(student);
+            dataContext.SubmitChanges();
+            MainDataGrid.ItemsSource = dataContext.Students;
+
+
+        }
+
     }
 }
