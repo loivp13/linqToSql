@@ -1,0 +1,15 @@
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\bin\Debug\LinqToSQL.exe.config
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\bin\Debug\LinqToSQL.exe
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\bin\Debug\LinqToSQL.pdb
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.csproj.AssemblyReference.cache
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\obj\Debug\MainWindow.g.cs
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\obj\Debug\App.g.cs
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL_MarkupCompile.cache
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL_MarkupCompile.lref
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\obj\Debug\MainWindow.baml
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.g.resources
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.Properties.Resources.resources
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.csproj.GenerateResource.cache
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.csproj.CoreCompileInputs.cache
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.exe
+D:\Web Developement\Visual Studio\C#\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.pdb
